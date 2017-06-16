@@ -1,0 +1,8 @@
+
+---
+applications:
+- name: hello-flask
+  memory: 256M
+  instances: 1
+  host: hello-flask
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
